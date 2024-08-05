@@ -16,7 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
     var screenOrientation = MediaQuery.of(context).orientation;
     return SafeArea(
       child: Scaffold(
-          backgroundColor: screenWidth > 500 ? Colors.green : Colors.red,
+          backgroundColor: screenWidth > 500 ? Colors.blue : Colors.red,
           body: InkWell(
             onTap: () {
               if (screenOrientation == Orientation.landscape) {
